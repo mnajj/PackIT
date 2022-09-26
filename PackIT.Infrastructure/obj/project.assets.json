@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "PackIT.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PackIT.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PackIT.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PackIT.Application.dll": {}
+        }
+      },
+      "PackIT.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PackIT.Shared.Abstractions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PackIT.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PackIT.Domain.dll": {}
+        }
+      },
+      "PackIT.Shared.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PackIT.Shared.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PackIT.Shared.Abstractions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PackIT.Application/1.0.0": {
+      "type": "project",
+      "path": "../PackIT.Application/PackIT.Application.csproj",
+      "msbuildProject": "../PackIT.Application/PackIT.Application.csproj"
+    },
+    "PackIT.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PackIT.Domain/PackIT.Domain.csproj",
+      "msbuildProject": "../PackIT.Domain/PackIT.Domain.csproj"
+    },
+    "PackIT.Shared.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../PackIT.Shared.Abstractions/PackIT.Shared.Abstractions.csproj",
+      "msbuildProject": "../PackIT.Shared.Abstractions/PackIT.Shared.Abstractions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PackIT.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mo662\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Infrastructure\\PackIT.Infrastructure.csproj",
+      "projectName": "PackIT.Infrastructure",
+      "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Infrastructure\\PackIT.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\mo662\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mo662\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Application\\PackIT.Application.csproj": {
+              "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Application\\PackIT.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
