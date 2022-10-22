@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Domain\\PackIT.Domain.csproj": {
                 "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Domain\\PackIT.Domain.csproj"
+              },
+              "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\PackIT.Shared.csproj": {
+                "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\PackIT.Shared.csproj"
               }
             }
           }
@@ -43,6 +46,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -213,6 +222,74 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\PackIT.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\PackIT.Shared.csproj",
+        "projectName": "PackIT.Shared",
+        "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\PackIT.Shared.csproj",
+        "packagesPath": "C:\\Users\\mo662\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mo662\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared.Abstractions\\PackIT.Shared.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Shared.Abstractions\\PackIT.Shared.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

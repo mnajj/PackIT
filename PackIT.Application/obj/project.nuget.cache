@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "SxsJE0/6Y8rWUZYHmQ5w/pWosSHZNQggMkrsNp3B/51fzO4by1xeKKpN1pHpiFXD+u9PZ0Ju29rToLqgqYWn/Q==",
+  "dgSpecHash": "OQFQ5r33wGIzzNmGlgpHkICl5BWp46eIU2jArHnFciDRyC7dEvMNbgqpCEG9xDZ1c+MfZQhiBSryFjuJ32E3rw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mo662\\repos\\PackIT\\PackIT.Application\\PackIT.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mo662\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\microsoft.extensions.dependencymodel\\6.0.0\\microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\scrutor\\4.2.0\\scrutor.4.2.0.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\mo662\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
